@@ -65,39 +65,27 @@ export const articles: Article[] = [
   },
   {
     id: 8,
-    slug: "article-8-right-to-transparency-in-outcomes",
-    title: "The Right to Transparency in System Performance and Outcomes",
+    slug: "article-8-equity-and-non-discrimination",
+    title: "Right to Equity and Non-Discrimination in Organ Donation and Transplantation",
     summary:
-      "Outcome data for organ procurement organizations and transplant centers must be publicly reported in standardized, understandable formats.",
-    body: `[PLACEHOLDER — Replace with Article 8 text before March 25]
-
-Donors, donor families, recipients, and the public have the right to understand how the organ donation system is performing. Outcome data — including procurement rates, discard rates, transplant survival rates, and equity metrics — must be reported publicly in standardized formats that are accessible to non-specialists.
-
-Accountability requires visibility. Opacity in system performance data undermines public confidence and impedes quality improvement.`,
+      "Prospective organ donors, transplant candidates, and their families have the right to an organ donation and transplantation system that is equitable and free from discrimination. Decisions regarding donation, referral, evaluation, wait-listing, organ allocation, and post-transplant care must not be influenced by race, ethnicity, socioeconomic status, insurance type, disability, language, immigration status, sexual orientation, gender identity, or other non-clinical characteristics. Institutions have an affirmative obligation to identify, measure, and address inequities throughout the donation and transplant continuum.",
+    body: "",
   },
   {
     id: 9,
-    slug: "article-9-right-to-family-involvement",
-    title: "The Right to Family Involvement and Support",
+    slug: "article-9-transparency-and-accountability",
+    title: "Right to Transparency, Data Integrity, and Meaningful Accountability",
     summary:
-      "Donor families have the right to be included in the donation process with compassion, to receive timely updates, and to access grief support resources.",
-    body: `[PLACEHOLDER — Replace with Article 9 text before March 25]
-
-The family of a deceased donor is engaged at one of the most painful moments of their lives. They have the right to be treated with dignity, compassion, and transparency throughout the donation process. This includes receiving timely, honest communication about what donation entails, what organs and tissues are being recovered, and how the process will proceed.
-
-Organ procurement organizations must ensure that grief support resources are made available to donor families at no cost, and that follow-up contact is offered in the months after donation.`,
+      "Prospective organ donors, transplant candidates, and the public have the right to a transparent organ donation and transplantation system characterized by accurate data reporting, meaningful performance metrics, and enforceable accountability. Hospitals, organ procurement organizations, transplant centers, and governing bodies must collect, disclose, and act upon data in ways that allow independent evaluation of safety, equity, and effectiveness, and must be accountable for failures through clear corrective mechanisms.",
+    body: "",
   },
   {
     id: 10,
-    slug: "article-10-right-to-support-services",
-    title: "The Right to Support Services for Living Donors",
+    slug: "article-10-responsible-media-engagement",
+    title: "Right to Responsible Media Engagement, Public Communication, and Trust Repair",
     summary:
-      "Living organ donors have the right to comprehensive medical and psychosocial support before, during, and after donation, without bearing undue financial burden.",
-    body: `[PLACEHOLDER — Replace with Article 10 text before March 25]
-
-Living donation is an act of extraordinary generosity that carries real medical risk. Living donors have the right to a thorough independent evaluation, long-term follow-up care, and psychosocial support without incurring financial hardship from the donation process itself.
-
-Programs relying on living donors bear an ethical obligation to ensure that financial and logistical barriers do not discourage or penalize the act of donation.`,
+      "Prospective organ donors, transplant candidates, and the public have the right to accurate, contextualized, and responsible communication about organ donation and transplantation. Healthcare institutions, organ procurement organizations, professional societies, and governing bodies have an ethical obligation to engage transparently with media and the public, to correct misinformation, to acknowledge failures, and to communicate reforms clearly in order to preserve and restore public trust.",
+    body: "",
   },
   {
     id: 11,
