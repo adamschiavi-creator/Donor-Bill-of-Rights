@@ -69,12 +69,12 @@ export default function ExecutiveSummary() {
           <p>Articles 1–4 establish the ethical boundary conditions of legitimate organ donation:</p>
           <ul className="list-disc pl-5 space-y-1">
             <li>End-of-life care must be independent, patient-centered, and uncoupled from procurement.</li>
-            <li>Decisions must honor pluralistic value frameworks, including "sanctity-of-life", "sanctity-of-function" orientations, and everything in between.</li>
+            <li>Decisions must honor pluralistic value frameworks, including &ldquo;sanctity-of-life&rdquo;, &ldquo;sanctity-of-function&rdquo; orientations, and everything in between.</li>
             <li>Death must be determined using rigorous, transparent, evidence-based standards, separate from donation considerations.</li>
           </ul>
           <p>
             Together, these articles reject the assumption—sometimes implicit in public
-            discourse—that ethical donation requires a "life-at-all-costs" posture. Instead,
+            discourse—that ethical donation requires a &ldquo;life-at-all-costs&rdquo; posture. Instead,
             they affirm that donation is ethically permissible only when it follows, rather
             than drives, values-based clinical decisions. This reframing is critical for
             restoring trust among families who fear that choosing comfort, dignity, or
@@ -111,7 +111,7 @@ export default function ExecutiveSummary() {
           <p>
             High-quality communication, emotional support, bereavement care, and respectful
             treatment of the body are framed as ethical obligations rather than ancillary
-            services. This emphasis reflects empirical evidence that families' long-term trust
+            services. This emphasis reflects empirical evidence that families&apos; long-term trust
             in healthcare systems is shaped less by outcomes than by whether they felt heard,
             respected, and protected at moments of irreversible loss.
           </p>
