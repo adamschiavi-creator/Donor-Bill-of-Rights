@@ -39,7 +39,9 @@ export default async function ArticlePage({ params }: Props) {
           <p className="text-xs font-semibold uppercase tracking-widest text-brand-300 mb-2">
             Article {article.id} of 15
           </p>
-          <h1 className="text-2xl sm:text-3xl font-bold leading-tight">{article.title}</h1>
+          <h1 className="text-2xl sm:text-3xl font-bold leading-tight">
+            Article {article.id}: {article.title}
+          </h1>
         </div>
       </header>
 
