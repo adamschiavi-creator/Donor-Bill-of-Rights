@@ -17,15 +17,11 @@ export const articles: Article[] = [
   },
   {
     id: 2,
-    slug: "article-2-right-to-informed-consent",
-    title: "The Right to Informed Consent",
+    slug: "article-2-values-honored",
+    title: "Right to Have One\u2019s Values Honored \u2014 Including Sanctity of Life and Sanctity of Function",
     summary:
-      "Donation decisions must be made freely, with full understanding of the process, and without coercion or undue pressure on donors or their families.",
-    body: `[PLACEHOLDER — Replace with Article 2 text before March 25]
-
-Donation decisions — whether made by a registrant or by a surrogate decision-maker after death — must be fully informed, voluntary, and free from coercion. Families and individuals deserve a clear explanation of the donation process, the medical criteria involved, and their right to ask questions before any consent is formalized.
-
-Healthcare providers and organ procurement organizations bear the responsibility of ensuring that consent conversations are conducted with empathy, sufficient time, and without pressure tied to institutional metrics or timelines.`,
+      "Prospective organ donors and patients facing end-of-life decisions have the right to have their personal values honored in medical decision-making, including values grounded in a \u201csanctity of life\u201d framework, a \u201csanctity of function\u201d framework, or a combination of the two. Decisions regarding continuation or limitation of life-sustaining treatment must be guided by the patient\u2019s expressed or inferred values, not by institutional norms, clinician preferences, or assumptions about moral obligation. Organ donation discussions must respect these value frameworks and may not pressure patients or families to adopt a \u201clife at all costs\u201d or donation-centric ethic.",
+    body: "",
   },
   {
     id: 3,
