@@ -60,25 +60,25 @@ export default async function HomePage() {
           </p>
         </section>
 
-        {/* Articles grid */}
+        {/* Articles list */}
         <section>
           <h2 className="text-xl font-semibold text-gray-900 mb-5">The 15 Articles</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div className="flex flex-col gap-3">
             {articles.map((article) => (
               <Link
                 key={article.id}
                 href={`/articles/${article.slug}`}
                 className="group block rounded-lg border border-gray-200 p-5 hover:border-brand-400 hover:bg-brand-50 transition-colors"
               >
-                <div className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-8 h-8 rounded-full bg-brand-100 text-brand-700 text-sm font-bold flex items-center justify-center group-hover:bg-brand-600 group-hover:text-white transition-colors">
+                <div className="flex items-start gap-4">
+                  <span className="flex-shrink-0 w-9 h-9 rounded-full bg-brand-100 text-brand-700 text-sm font-bold flex items-center justify-center group-hover:bg-brand-600 group-hover:text-white transition-colors">
                     {article.id}
                   </span>
                   <div>
-                    <h3 className="text-sm font-semibold text-gray-900 group-hover:text-brand-700 leading-snug mb-1">
-                      {article.title}
+                    <h3 className="text-base font-semibold text-gray-900 group-hover:text-brand-700 leading-snug mb-2">
+                      Article {article.id}: {article.title}
                     </h3>
-                    <p className="text-xs text-gray-500 leading-relaxed">
+                    <p className="text-sm text-gray-600 leading-relaxed">
                       {article.summary}
                     </p>
                   </div>
