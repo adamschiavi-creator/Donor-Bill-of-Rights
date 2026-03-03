@@ -2,7 +2,6 @@ import Link from "next/link";
 import { articles } from "@/lib/articles";
 import { Comment, getComments } from "@/lib/supabase";
 import CommentList from "@/components/CommentList";
-import ExecutiveSummary from "@/components/ExecutiveSummary";
 
 export const dynamic = "force-dynamic";
 
@@ -33,6 +32,11 @@ export default async function HomePage() {
           <p className="mt-4 text-sm text-brand-300">
             Alliance Meeting &bull; Orlando, FL &bull; March 25, 2026
           </p>
+          <p className="mt-3">
+            <Link href="/executive-summary" className="text-sm text-white underline hover:text-brand-100">
+              Read the Executive Summary &rarr;
+            </Link>
+          </p>
         </div>
       </header>
 
@@ -55,9 +59,6 @@ export default async function HomePage() {
             this page for broad feedback. All comments are visible to other collaborators.
           </p>
         </section>
-
-        {/* Executive Summary */}
-        <ExecutiveSummary />
 
         {/* Articles grid */}
         <section>
