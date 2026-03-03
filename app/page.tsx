@@ -2,6 +2,7 @@ import Link from "next/link";
 import { articles } from "@/lib/articles";
 import { Comment, getComments } from "@/lib/supabase";
 import CommentList from "@/components/CommentList";
+import ExecutiveSummary from "@/components/ExecutiveSummary";
 
 export const dynamic = "force-dynamic";
 
@@ -54,6 +55,9 @@ export default async function HomePage() {
             this page for broad feedback. All comments are visible to other collaborators.
           </p>
         </section>
+
+        {/* Executive Summary */}
+        <ExecutiveSummary />
 
         {/* Articles grid */}
         <section>
