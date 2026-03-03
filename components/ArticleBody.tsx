@@ -2,11 +2,13 @@ import { Article } from "@/lib/articles";
 import Article1Body from "./article-bodies/Article1";
 import Article2Body from "./article-bodies/Article2";
 import Article3Body from "./article-bodies/Article3";
+import Article4Body from "./article-bodies/Article4";
 
 const bodyMap: Record<number, React.ComponentType> = {
   1: Article1Body,
   2: Article2Body,
   3: Article3Body,
+  4: Article4Body,
 };
 
 interface Props {
