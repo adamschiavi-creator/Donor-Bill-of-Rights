@@ -14,7 +14,11 @@ function getSupabaseClient() {
   if (!url || !key) {
     throw new Error("SUPABASE_URL and SUPABASE_ANON_KEY must be set");
   }
-  return createClient(url, key);
+  return createClient(url, key, {
+    global: {
+      fetch: (input, init = {}) => fetch(input, { ...init, cache: "no-store" }),
+    },
+  });
 }
 
 export async function getComments(articleSlug: string | null): Promise<Comment[]> {
