@@ -25,15 +25,11 @@ export const articles: Article[] = [
   },
   {
     id: 3,
-    slug: "article-3-right-to-fair-allocation",
-    title: "The Right to Fair and Transparent Organ Allocation",
+    slug: "article-3-determination-of-death",
+    title: "Right to a Transparent, Rigorous, and Evidence-Based Determination of Death",
     summary:
-      "Organs must be allocated according to established, publicly available criteria that prioritize medical urgency and compatibility, not wealth, status, or geography.",
-    body: `[PLACEHOLDER — Replace with Article 3 text before March 25]
-
-Every patient awaiting transplantation has the right to an allocation system that is fair, transparent, and governed by clinical criteria. Allocation policies must be publicly available and reviewed regularly to incorporate advances in medicine and to address documented disparities.
-
-No patient should be advantaged or disadvantaged based on their financial resources, celebrity status, social connections, or geographic accident of birth. Where geographic disparities exist, they must be acknowledged and actively mitigated.`,
+      "Prospective organ donors and their families have the right to assurance that organ procurement will occur only after death has been determined according to rigorous, evidence-based medical standards, using transparent and consistently applied protocols. Determination of death\u2014whether by neurologic criteria or circulatory criteria\u2014must be made by qualified clinicians independent of organ procurement activities, fully documented, and clearly explained to patients\u2019 families in understandable terms.",
+    body: "",
   },
   {
     id: 4,
