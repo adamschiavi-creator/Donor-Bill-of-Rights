@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { articles, getArticleBySlug } from "@/lib/articles";
 import { Comment, getComments } from "@/lib/supabase";
 import CommentList from "@/components/CommentList";
+import ArticleBody from "@/components/ArticleBody";
 
 export const dynamic = "force-dynamic";
 
@@ -45,16 +46,10 @@ export default async function ArticlePage({ params }: Props) {
       <div className="max-w-3xl mx-auto px-4 sm:px-6 py-10">
         {/* Article body */}
         <article className="mb-4">
-          <p className="text-gray-500 text-sm italic mb-6 border-l-4 border-brand-200 pl-4">
+          <p className="text-gray-700 text-base italic mb-8 border-l-4 border-brand-400 pl-4 leading-relaxed">
             {article.summary}
           </p>
-          <div className="space-y-4">
-            {article.body.split("\n\n").map((paragraph, i) => (
-              <p key={i} className="text-gray-800 leading-relaxed text-base">
-                {paragraph}
-              </p>
-            ))}
-          </div>
+          <ArticleBody article={article} />
         </article>
 
         {/* Prev / Next navigation */}
