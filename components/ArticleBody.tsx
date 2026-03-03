@@ -9,6 +9,11 @@ import Article7Body from "./article-bodies/Article7";
 import Article8Body from "./article-bodies/Article8";
 import Article9Body from "./article-bodies/Article9";
 import Article10Body from "./article-bodies/Article10";
+import Article11Body from "./article-bodies/Article11";
+import Article12Body from "./article-bodies/Article12";
+import Article13Body from "./article-bodies/Article13";
+import Article14Body from "./article-bodies/Article14";
+import Article15Body from "./article-bodies/Article15";
 
 const bodyMap: Record<number, React.ComponentType> = {
   1: Article1Body,
@@ -21,6 +26,11 @@ const bodyMap: Record<number, React.ComponentType> = {
   8: Article8Body,
   9: Article9Body,
   10: Article10Body,
+  11: Article11Body,
+  12: Article12Body,
+  13: Article13Body,
+  14: Article14Body,
+  15: Article15Body,
 };
 
 interface Props {
