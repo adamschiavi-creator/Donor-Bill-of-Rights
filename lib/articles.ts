@@ -49,27 +49,19 @@ export const articles: Article[] = [
   },
   {
     id: 6,
-    slug: "article-6-right-to-non-discrimination",
-    title: "The Right to Non-Discrimination in Access and Listing",
+    slug: "article-6-independent-advocacy",
+    title: "Right to Independent Advocacy and Ethical Oversight",
     summary:
-      "No patient may be denied evaluation for transplant listing based on race, ethnicity, gender, age, disability, or socioeconomic status.",
-    body: `[PLACEHOLDER — Replace with Article 6 text before March 25]
-
-Access to transplant evaluation and listing must be free from discrimination based on race, ethnicity, national origin, sex, gender identity, sexual orientation, disability, age, religion, or financial status. Documented disparities in referral rates, listing practices, and post-transplant outcomes require urgent, sustained attention.
-
-Transplant programs and referring providers bear joint responsibility for identifying and eliminating discriminatory barriers in their practice patterns.`,
+      "Prospective organ donors, patients at the end of life, and their families have the right to access independent advocacy and ethical oversight to ensure that their interests, values, and rights are protected throughout end-of-life decision-making and any subsequent organ donation process. This advocacy must be structurally independent from organ procurement organizations, transplant teams, and institutional performance incentives, and must be empowered to raise concerns, request review, and halt processes when ethical safeguards are not met.",
+    body: "",
   },
   {
     id: 7,
-    slug: "article-7-right-to-cultural-and-religious-respect",
-    title: "The Right to Cultural and Religious Respect",
+    slug: "article-7-communication-and-bereavement",
+    title: "Right to High-Quality Communication, Emotional Support, and Bereavement Care",
     summary:
-      "Donation and transplantation practices must acknowledge and respect the cultural and religious beliefs of donors, families, and recipients.",
-    body: `[PLACEHOLDER — Replace with Article 7 text before March 25]
-
-Organ donation and transplantation intersect with some of the most profound personal, cultural, and religious dimensions of human experience. All participants in the donation ecosystem must be trained to respect diverse cultural perspectives on death, the body, and bodily integrity.
-
-Where cultural or religious objections are raised, they must be met with genuine respect and alternative approaches explored, without judgment or coercion.`,
+      "Prospective organ donors\u2019 families have the right to timely, compassionate, and skilled communication; to emotional and psychosocial support throughout end-of-life decision-making and any donation process; and to appropriate bereavement care after death, regardless of whether organ donation occurs. Communication must prioritize understanding, dignity, and respect, and must never subordinate family support to operational or procurement objectives.",
+    body: "",
   },
   {
     id: 8,
