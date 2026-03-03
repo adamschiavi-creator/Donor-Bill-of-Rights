@@ -41,15 +41,11 @@ export const articles: Article[] = [
   },
   {
     id: 5,
-    slug: "article-5-right-to-know-donation-status",
-    title: "The Right to Know and Confirm Donor Status",
+    slug: "article-5-protection-from-coercion",
+    title: "Right to Protection from Coercion, Manipulation, and Misinformation",
     summary:
-      "Individuals have the right to register, update, and confirm their donation status at any time through accessible, reliable systems.",
-    body: `[PLACEHOLDER — Replace with Article 5 text before March 25]
-
-Every person who chooses to register as an organ donor has the right to verify their registration is accurately recorded and accessible to decision-makers at the time of death. Registration systems must be interoperable, reliably maintained, and accessible for review and amendment at any time.
-
-This Article also addresses the responsibility of the healthcare system to check donor registries before any surrogate decision process begins, ensuring that the individual's stated wishes are honored.`,
+      "Prospective organ donors and their families have the right to receive accurate, balanced, and non-coercive information about organ donation and end-of-life care. They must be protected from manipulation, undue pressure, misleading framing, or moral coercion\u2014whether arising from clinicians, organ procurement organizations, institutional messaging, or public discourse. Decisions regarding donation must be voluntary, informed, and grounded in the patient\u2019s values, free from emotional exploitation or misrepresentation of facts.",
+    body: "",
   },
   {
     id: 6,
