@@ -33,7 +33,7 @@ export default async function HomePage() {
             Alliance Meeting &bull; Orlando, FL &bull; March 25, 2026
           </p>
           <p className="mt-3">
-            <Link href="/executive-summary" className="text-sm text-white underline hover:text-brand-100">
+            <Link href="/executive-summary" className="text-base font-semibold text-white underline hover:text-brand-100">
               Read the Executive Summary &rarr;
             </Link>
           </p>
