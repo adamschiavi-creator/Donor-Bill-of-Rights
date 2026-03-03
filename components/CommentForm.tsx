@@ -39,7 +39,8 @@ export default function CommentForm({ articleSlug = null, onCommentAdded }: Comm
 
         if (!res.ok) {
           const data = await res.json().catch(() => ({}));
-          setError(data.error ?? "Failed to submit comment. Please try again.");
+          const msg = data.detail ? `${data.error}: ${data.detail}` : (data.error ?? "Failed to submit comment. Please try again.");
+          setError(msg);
           return;
         }
 
