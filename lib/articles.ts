@@ -33,15 +33,11 @@ export const articles: Article[] = [
   },
   {
     id: 4,
-    slug: "article-4-right-to-privacy-and-confidentiality",
-    title: "The Right to Privacy and Confidentiality",
+    slug: "article-4-uncoupled-relationship",
+    title: "Right to an Uncoupled Relationship Between End-of-Life Care and Organ Procurement",
     summary:
-      "Donor and recipient medical information must be protected with the highest standards of confidentiality, shared only as medically necessary and legally permitted.",
-    body: `[PLACEHOLDER — Replace with Article 4 text before March 25]
-
-The medical information of organ donors and transplant recipients is among the most sensitive health data in existence. All parties — organ procurement organizations, transplant centers, and follow-up care providers — must safeguard this information in compliance with applicable privacy laws and ethical standards.
-
-Disclosure of identifying information between donor families and recipients should occur only through established, consented processes designed to protect both parties.`,
+      "Prospective organ donors and patients at the end of life have the right to an uncoupled system in which decisions about goals of care, withdrawal or withholding of life-sustaining treatment, and determination of death are made independently of any consideration of organ procurement. Organ donation discussions and recovery processes must occur only after these clinical decisions are complete and documented and must be carried out by separate teams with distinct roles, responsibilities, and accountability structures.",
+    body: "",
   },
   {
     id: 5,
