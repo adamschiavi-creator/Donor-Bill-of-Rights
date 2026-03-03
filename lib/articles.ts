@@ -9,15 +9,11 @@ export interface Article {
 export const articles: Article[] = [
   {
     id: 1,
-    slug: "article-1-right-to-accurate-information",
-    title: "The Right to Accurate and Unbiased Information",
+    slug: "article-1-independent-end-of-life-care",
+    title: "Right to Independent, Patient-Centered End-of-Life Care",
     summary:
-      "Every individual has the right to receive accurate, evidence-based information about organ and tissue donation free from sensationalism or misinformation.",
-    body: `[PLACEHOLDER — Replace with Article 1 text before March 25]
-
-Every individual has the right to receive accurate, evidence-based information about organ and tissue donation, free from distortion, sensationalism, or deliberate misinformation. Public trust in the donation system depends on transparency and honest communication from all stakeholders, including the media, healthcare providers, and procurement organizations.
-
-The proliferation of inaccurate narratives — whether arising from misreported cases, bad-faith actors, or well-intentioned but incomplete reporting — erodes the public's willingness to register as donors and can cost lives. This Article establishes the foundational obligation of all parties in the donation ecosystem to prioritize factual accuracy.`,
+      "Prospective organ donors and patients at the end of life have the right to receive the highest quality medical care focused exclusively on their individual clinical needs, comfort, and best interests—completely independent of any consideration of organ donation or procurement. Decisions regarding continuation, limitation, or withdrawal of life-sustaining treatment must be made by the treating clinical team and surrogate decision-makers without influence from organ procurement priorities or transplant imperatives.",
+    body: "",
   },
   {
     id: 2,
