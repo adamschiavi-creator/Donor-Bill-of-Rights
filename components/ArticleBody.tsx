@@ -1,8 +1,10 @@
 import { Article } from "@/lib/articles";
 import Article1Body from "./article-bodies/Article1";
+import Article2Body from "./article-bodies/Article2";
 
 const bodyMap: Record<number, React.ComponentType> = {
   1: Article1Body,
+  2: Article2Body,
 };
 
 interface Props {
