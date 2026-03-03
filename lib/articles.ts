@@ -89,63 +89,43 @@ export const articles: Article[] = [
   },
   {
     id: 11,
-    slug: "article-11-right-to-access-regardless-of-ability-to-pay",
-    title: "The Right to Access Transplantation Regardless of Ability to Pay",
+    slug: "article-11-stakeholder-participation",
+    title: "Right to Stakeholder Participation and Ongoing Ethical Deliberation",
     summary:
-      "Financial barriers must not prevent any eligible patient from being evaluated for, listed for, or receiving a life-saving transplant.",
-    body: `[PLACEHOLDER — Replace with Article 11 text before March 25]
-
-The inability to afford transplantation — including surgical costs, immunosuppressive medications, and post-transplant follow-up — should not determine whether a patient lives or dies. This Article calls for systemic efforts to ensure that financial barriers to transplant access are identified, documented, and actively addressed by transplant programs, payers, and policymakers.
-
-A donated organ is a gift from one person to another; the healthcare system should not be a tollbooth on that gift.`,
+      "Prospective organ donors, patients, families, and the public have the right to meaningful participation in the governance, ethical deliberation, and continuous improvement of the organ donation and transplantation system. Policies governing end-of-life care, organ procurement, and transplantation must be informed by the lived experiences and values of stakeholders, and must be subject to regular ethical review, public input, and revision as medical practices, technologies, and societal values evolve.",
+    body: "",
   },
   {
     id: 12,
-    slug: "article-12-right-to-recipient-communication",
-    title: "The Right to Thoughtful Donor-Recipient Communication",
+    slug: "article-12-continuous-quality-improvement",
+    title: "Right to Continuous Quality Improvement, Learning, and Ethical Reform",
     summary:
-      "Both donor families and recipients have the right to participate in structured communication programs that respect boundaries and support healing.",
-    body: `[PLACEHOLDER — Replace with Article 12 text before March 25]
-
-Many donor families and transplant recipients wish to connect with one another. Both parties have the right to participate in structured, supported programs that facilitate this communication with appropriate boundaries, privacy protections, and psychosocial support.
-
-These programs recognize that donation creates a unique bond between strangers, and that when carefully managed, this connection can be a powerful source of healing and meaning for all involved.`,
+      "Prospective organ donors, transplant candidates, patients at the end of life, and their families have the right to an organ donation and transplantation system committed to continuous quality improvement, learning from error, and ethical reform. Institutions must systematically identify failures, near misses, and inequities; respond with evidence-based corrective action; and transparently communicate lessons learned in order to improve care, prevent harm, and sustain public trust over time.",
+    body: "",
   },
   {
     id: 13,
-    slug: "article-13-right-to-donor-family-recognition",
-    title: "The Right to Meaningful Donor Family Recognition",
+    slug: "article-13-informed-consent",
+    title: "Right to Informed, Revocable, and Respected Consent",
     summary:
-      "The families of deceased donors have the right to be honored and acknowledged for their gift in ways that are meaningful to them.",
-    body: `[PLACEHOLDER — Replace with Article 13 text before March 25]
-
-The decision to donate a loved one's organs is among the most selfless acts a family can make. Donor families have the right to be meaningfully recognized — not as a marketing exercise for procurement organizations, but as a genuine expression of gratitude and respect for an irreplaceable gift.
-
-Recognition programs should be designed with donor families, not for them, and should offer options that reflect diverse cultural practices and personal preferences.`,
+      "Prospective organ donors and their families have the right to provide consent for organ donation that is informed, voluntary, revocable, and respected. Donor designation and authorization decisions must be based on accurate information, free of coercion, and open to reconsideration at any time prior to organ recovery. A patient\u2019s documented wishes must be honored, while families must be treated with respect, transparency, and support when consent is sought or clarified at the end of life.",
+    body: "",
   },
   {
     id: 14,
-    slug: "article-14-right-to-quality-and-safety",
-    title: "The Right to Quality and Safety Standards",
+    slug: "article-14-dignity-and-comfort",
+    title: "Right to Dignity, Comfort, and Respectful Care of the Body",
     summary:
-      "All participants in the donation and transplantation system have the right to benefit from rigorous quality oversight, continuous improvement, and prompt investigation of adverse events.",
-    body: `[PLACEHOLDER — Replace with Article 14 text before March 25]
-
-Patients, donors, and the public have the right to a donation and transplantation system governed by rigorous quality standards, subject to independent oversight, and committed to continuous improvement. When adverse events occur, they must be investigated transparently, with findings shared appropriately across the system to prevent recurrence.
-
-Quality and safety are not bureaucratic aspirations; they are ethical obligations.`,
+      "Patients at the end of life and prospective organ donors have the right to dignity, comfort, and respectful care of their bodies before and after death. Medical and organ procurement practices must prioritize relief of suffering, respect for the body, and adherence to cultural, religious, and personal values. Organ donation must never compromise comfort-focused care prior to death nor respectful handling of the body after death.",
+    body: "",
   },
   {
     id: 15,
-    slug: "article-15-right-to-advocacy-and-representation",
-    title: "The Right to Advocacy and Systemic Representation",
+    slug: "article-15-public-trust-and-stewardship",
+    title: "Right to Public Trust, Ethical Stewardship, and Systemic Integrity",
     summary:
-      "Donors, donor families, and transplant recipients have the right to meaningful representation in the governance and policy decisions of the organ donation and transplantation system.",
-    body: `[PLACEHOLDER — Replace with Article 15 text before March 25]
-
-The people most affected by the organ donation and transplantation system — donors, donor families, recipients, and waitlisted patients — have the right to meaningful participation in the governance, policy development, and quality oversight of that system. Token representation is insufficient.
-
-This Article calls for structural inclusion of patient and family voices at every level of policy-making, from local transplant program committees to national regulatory and oversight bodies.`,
+      "Prospective organ donors, transplant candidates, patients at the end of life, and the public have the right to an organ donation and transplantation system that is ethically stewarded, institutionally accountable, and worthy of public trust. Healthcare institutions, organ procurement organizations, governing bodies, and professional societies hold a collective duty to safeguard this trust through ethical leadership, transparent governance, and unwavering commitment to the public good over institutional self-interest.",
+    body: "",
   },
 ];
 
