@@ -24,8 +24,7 @@ export async function POST(request: NextRequest) {
     comment = await insertComment(slug, author_name.trim(), content.trim());
   } catch (err) {
     console.error("Supabase insert error:", err);
-    const detail = err instanceof Error ? err.message : String(err);
-    return NextResponse.json({ error: "Failed to save comment", detail }, { status: 500 });
+    return NextResponse.json({ error: "Failed to save comment" }, { status: 500 });
   }
 
   // Send email notification (best-effort — don't fail the request if this errors)
