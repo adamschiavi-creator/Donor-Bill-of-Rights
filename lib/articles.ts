@@ -12,7 +12,7 @@ export const articles: Article[] = [
     slug: "article-1-independent-end-of-life-care",
     title: "Right to Independent, Patient-Centered End-of-Life Care",
     summary:
-      "Prospective organ donors and patients at the end of life have the right to receive the highest quality medical care focused exclusively on their individual clinical needs, comfort, and best interests—completely independent of any consideration of organ donation or procurement. Decisions regarding continuation, limitation, or withdrawal of life-sustaining treatment must be made by the treating clinical team and surrogate decision-makers without influence from organ procurement priorities or transplant imperatives.",
+      "Prospective organ donors and patients near the end of life have the right to receive the highest quality medical care focused exclusively on their individual clinical needs, comfort, and best interests. Decisions regarding continuation, limitation, or withdrawal of life-sustaining treatment will be made by the treating clinical team and surrogate decision-makers, independent of organ procurement priorities.",
     body: "",
   },
   {
