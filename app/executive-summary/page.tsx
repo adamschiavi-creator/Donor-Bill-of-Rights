@@ -28,12 +28,12 @@ export default function ExecutiveSummaryPage() {
           This work proposes a Donor Bill of Rights as a unifying ethical framework designed
           to restore and sustain public trust by making explicit the rights of patients,
           donors, families, and the public—and the corresponding obligations of healthcare
-          institutions, professional societies, organ procurement organizations, and governing
-          bodies. Drawing on peer-reviewed literature, established ethical theory, legal
-          precedent, qualitative research on family experience, and contemporary policy
-          analysis, the Bill articulates fifteen interdependent rights spanning end-of-life
-          care, death determination, consent, equity, communication, oversight, transparency,
-          and ethical stewardship.
+          institutions, professional societies, organ procurement organizations, transplant
+          programs, and governing bodies. Drawing on peer-reviewed literature, established
+          ethical theory, legal precedent, qualitative research on family experience, and
+          contemporary policy analysis, the Bill articulates fifteen interdependent rights
+          spanning end-of-life care, death determination, authorization (consent), equity,
+          communication, oversight, transparency, and ethical stewardship.
         </p>
 
         <p>
@@ -71,7 +71,7 @@ export default function ExecutiveSummaryPage() {
         <ul className="list-disc pl-5 space-y-1">
           <li>End-of-life care must be independent, patient-centered, and uncoupled from procurement.</li>
           <li>Decisions must honor pluralistic value frameworks, including &ldquo;sanctity-of-life&rdquo;, &ldquo;sanctity-of-function&rdquo; orientations, and everything in between.</li>
-          <li>Death must be determined using rigorous, transparent, evidence-based standards, separate from donation considerations.</li>
+          <li>Death must be determined using rigorous, transparent, evidence-based standards and guidelines, separate from donation considerations.</li>
         </ul>
         <p>
           Together, these articles reject the assumption—sometimes implicit in public
@@ -92,27 +92,28 @@ export default function ExecutiveSummaryPage() {
         <ul className="list-disc pl-5 space-y-1">
           <li>protection from coercive framing and misinformation,</li>
           <li>access to independent advocacy and ethical oversight, and</li>
-          <li>informed, revocable, and respected consent,</li>
+          <li>informed, revocable, and respected authorization (consent),</li>
         </ul>
         <p>
           the framework shifts ethical responsibility from individual conversations to
-          institutional design. Consent is treated not as a transactional checkbox, but as a
-          relational and revisable process, supported by safeguards that protect families even
-          when they are uncertain, conflicted, or ultimately decline donation.
+          institutional design. Authorization is treated not as a transactional checkbox, but
+          as a relational and revisable process, supported by safeguards that protect the
+          designated donor&apos;s rights or in the case of a non-designated donor, protects
+          families even when they are uncertain, conflicted, or ultimately decline donation.
         </p>
 
         <h3 className="font-semibold text-gray-900">4. Communication, Dignity, and the Human Experience of Loss</h3>
         <p>
           Articles 7 and 14 address the lived experience of families before, during, and
-          after death. They underscore that ethical legitimacy depends on what decisions are
-          made, and how they are communicated and embodied.
+          after the death of their family member. They underscore that ethical legitimacy
+          depends on what decisions are made, and how they are communicated and embodied.
         </p>
         <p>
           High-quality communication, emotional support, bereavement care, and respectful
           treatment of the body are framed as ethical obligations rather than ancillary
           services. This emphasis reflects empirical evidence that families&apos; long-term trust
           in healthcare systems is shaped less by outcomes than by whether they felt heard,
-          respected, and protected at moments of irreversible loss.
+          respected, and protected at moments of vulnerability and irreversible loss.
         </p>
         <p>
           By explicitly extending dignity beyond death, the Bill counters one of the most
@@ -181,11 +182,11 @@ export default function ExecutiveSummaryPage() {
           defensiveness.
         </p>
         <p>
-          By making explicit what patients and families should expect—and what institutions
-          must guarantee—the Donor Bill of Rights offers a path toward restoring public
-          confidence at a moment of legitimate concern and scrutiny. A system that earns trust
-          does more than facilitate transplantation; it honors the moral weight of the gift on
-          which it depends.
+          By making explicit what patients and families should expect (are owed??)—and what
+          institutions must guarantee—the Donor Bill of Rights offers a path toward restoring
+          public confidence at a moment of legitimate concern and scrutiny. A system that
+          earns trust does more than facilitate transplantation; it honors the moral weight of
+          the gift on which it depends.
         </p>
 
       </div>
