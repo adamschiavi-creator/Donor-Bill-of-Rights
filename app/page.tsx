@@ -48,10 +48,8 @@ export default async function HomePage() {
             This Bill of Rights represents a consolidating effort to articulate the
             principles that should govern every interaction in the organ and tissue
             donation ecosystem — from the moment of donor registration through
-            long-term recipient care. It is offered in response to a period of
-            heightened public mistrust, with the conviction that transparency,
-            accountability, and genuine patient-centeredness are the foundation
-            on which public confidence must be rebuilt.
+            long-term recipient care. The foundation of public confidence requires
+            transparency, accountability, and genuine patient-centeredness.
           </p>
           <p className="mt-3 text-sm text-brand-700 leading-relaxed">
             <strong>How to participate:</strong> Click any Article below to read its full
