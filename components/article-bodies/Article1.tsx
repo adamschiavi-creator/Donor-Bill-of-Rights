@@ -4,6 +4,17 @@ export default function Article1Body() {
     <div className="space-y-6 text-gray-800 leading-relaxed text-base">
 
       <section className="space-y-4">
+        <h2 className="text-lg font-bold text-brand-800">Statement of Article</h2>
+        <p>
+          Prospective organ donors and patients near the end of life have the right to receive
+          the highest quality medical care focused exclusively on their individual clinical
+          needs, comfort, and best interests. Decisions regarding continuation, limitation, or
+          withdrawal of life-sustaining treatment will be made by the treating clinical team
+          and surrogate decision-makers, independent of organ procurement priorities.
+        </p>
+      </section>
+
+      <section className="space-y-4">
         <h2 className="text-lg font-bold text-brand-800">Rationale and Evidence</h2>
 
         <h3 className="font-semibold text-gray-900">Ethical Foundations and Professional Standards</h3>
@@ -59,7 +70,7 @@ export default function Article1Body() {
         <p>
           Consensus guidelines on brain death and death by neurologic criteria emphasize the
           necessity of separating determination of death from any organ procurement activities.
-          The 2023 multisociety consensus guideline underscores that determination of death is a
+          The 2023 multi-society consensus guideline underscores that determination of death is a
           clinical act governed by strict prerequisites and standardized examinations—not a
           transplant-driven process (Greer et al.; Lewis et al.).
         </p>
@@ -92,14 +103,13 @@ export default function Article1Body() {
             <span className="font-semibold">Clear Policy and Structural Separation of Roles</span>
             <span> — Hospitals should codify policies that segregate clinical teams responsible
             for intensive care and end-of-life decisions from those who coordinate organ donation.
-            Clinicians whose evaluation or compensation is tied to donation metrics should not
-            participate in treatment-limitation decisions.</span>
+            Clinicians who work for the organ procurement organization or for the intended
+            recipient should not participate in treatment-limitation decisions.</span>
           </li>
           <li>
             <span className="font-semibold">Documentation Standards</span>
             <span> — Documentation of goals of care, decisions to limit or withdraw treatment,
-            and determination of death should precede any donation conversations and be subject
-            to quality review.</span>
+            should precede any donation conversations and be subject to quality review.</span>
           </li>
           <li>
             <span className="font-semibold">Education and Communication Protocols</span>
