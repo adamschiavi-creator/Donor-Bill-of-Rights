@@ -42,8 +42,8 @@ export default async function HomePage() {
         <section className="mb-10 bg-brand-50 rounded-xl p-6 border border-brand-100">
           <h2 className="text-lg font-semibold text-brand-900 mb-3">About This Document</h2>
           <p className="text-sm text-brand-800 leading-relaxed">
-            This Bill of Rights represents a consolidating effort to articulate the
-            principles that should govern every interaction in the organ and tissue
+            This effort represents a consolidating effort to articulate the
+            principles that should govern every interaction in the organ
             donation ecosystem — from the moment of donor registration through
             long-term recipient care. The foundation of public confidence requires
             transparency, accountability, and genuine patient-centeredness.
