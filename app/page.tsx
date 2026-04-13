@@ -19,18 +19,20 @@ export default async function HomePage() {
       <header className="bg-brand-700 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10 sm:py-14">
           <p className="text-xs font-semibold uppercase tracking-widest text-brand-200 mb-3">
-            Organ &amp; Tissue Donation and Transplantation
+            Organ Donation
           </p>
           <h1 className="text-3xl sm:text-4xl font-bold leading-tight mb-4">
-            Donation Bill of Rights
+            The Donation Commitments and Common Values Initiative
           </h1>
           <p className="text-brand-100 text-base sm:text-lg max-w-2xl leading-relaxed">
             A collaborative foundation of thought and best practices in organ and tissue
             donation and transplantation — developed in partnership with the Organ Donation
             and Transplantation Alliance.
           </p>
-          <p className="mt-4 text-sm text-brand-300">
-            Alliance Meeting &bull; Orlando, FL &bull; March 25, 2026
+          <p className="mt-3">
+            <Link href="/executive-summary" className="text-base font-semibold text-white underline hover:text-brand-100">
+              Read the Executive Summary &rarr;
+            </Link>
           </p>
         </div>
       </header>
@@ -43,10 +45,8 @@ export default async function HomePage() {
             This Bill of Rights represents a consolidating effort to articulate the
             principles that should govern every interaction in the organ and tissue
             donation ecosystem — from the moment of donor registration through
-            long-term recipient care. It is offered in response to a period of
-            heightened public mistrust, with the conviction that transparency,
-            accountability, and genuine patient-centeredness are the foundation
-            on which public confidence must be rebuilt.
+            long-term recipient care. The foundation of public confidence requires
+            transparency, accountability, and genuine patient-centeredness.
           </p>
           <p className="mt-3 text-sm text-brand-700 leading-relaxed">
             <strong>How to participate:</strong> Click any Article below to read its full
@@ -55,25 +55,25 @@ export default async function HomePage() {
           </p>
         </section>
 
-        {/* Articles grid */}
+        {/* Articles list */}
         <section>
           <h2 className="text-xl font-semibold text-gray-900 mb-5">The 15 Articles</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div className="flex flex-col gap-3">
             {articles.map((article) => (
               <Link
                 key={article.id}
                 href={`/articles/${article.slug}`}
                 className="group block rounded-lg border border-gray-200 p-5 hover:border-brand-400 hover:bg-brand-50 transition-colors"
               >
-                <div className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-8 h-8 rounded-full bg-brand-100 text-brand-700 text-sm font-bold flex items-center justify-center group-hover:bg-brand-600 group-hover:text-white transition-colors">
+                <div className="flex items-start gap-4">
+                  <span className="flex-shrink-0 w-9 h-9 rounded-full bg-brand-100 text-brand-700 text-sm font-bold flex items-center justify-center group-hover:bg-brand-600 group-hover:text-white transition-colors">
                     {article.id}
                   </span>
                   <div>
-                    <h3 className="text-sm font-semibold text-gray-900 group-hover:text-brand-700 leading-snug mb-1">
-                      {article.title}
+                    <h3 className="text-base font-semibold text-gray-900 group-hover:text-brand-700 leading-snug mb-2">
+                      Article {article.id}: {article.title}
                     </h3>
-                    <p className="text-xs text-gray-500 leading-relaxed">
+                    <p className="text-sm text-gray-600 leading-relaxed">
                       {article.summary}
                     </p>
                   </div>
