@@ -7,7 +7,7 @@ export default function ExecutiveSummaryPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 py-8">
           <Link href="/" className="text-brand-200 text-sm hover:text-white">&larr; Back to Home</Link>
           <h1 className="text-2xl sm:text-3xl font-bold mt-3">Executive Summary</h1>
-          <p className="text-brand-200 text-sm mt-1">Donation Bill of Rights</p>
+          <p className="text-brand-200 text-sm mt-1">The Donation Commitments and Common Values Initiative (The Initiative)</p>
         </div>
       </header>
 
@@ -25,15 +25,17 @@ export default function ExecutiveSummaryPage() {
         </p>
 
         <p>
-          This work proposes a Donor Bill of Rights as a unifying ethical framework designed
-          to restore and sustain public trust by making explicit the rights of patients,
-          donors, families, and the public—and the corresponding obligations of healthcare
-          institutions, professional societies, organ procurement organizations, transplant
-          programs, and governing bodies. Drawing on peer-reviewed literature, established
-          ethical theory, legal precedent, qualitative research on family experience, and
-          contemporary policy analysis, the Bill articulates fifteen interdependent rights
-          spanning end-of-life care, death determination, authorization (consent), equity,
-          communication, oversight, transparency, and ethical stewardship.
+          This work proposes a public facing document that includes Donation Commitments and
+          Common Values, originally conceived of as a &ldquo;Donor Bill-of-Rights&rdquo; as a unifying
+          ethical framework designed to restore and sustain public trust by making explicit
+          the rights of patients, donors, families, and the public&mdash;and the corresponding
+          obligations of healthcare institutions, professional societies, organ procurement
+          organizations, transplant programs, and governing bodies. Drawing on peer-reviewed
+          literature, established ethical theory, legal precedent, qualitative research on
+          family experience, and contemporary policy analysis, the Initiative articulates
+          fifteen interdependent rights spanning end-of-life care, death determination,
+          authorization (consent), equity, communication, oversight, transparency, and
+          ethical stewardship.
         </p>
 
         <p>
@@ -59,8 +61,8 @@ export default function ExecutiveSummaryPage() {
           through intention.
         </p>
         <p>
-          The Bill of Rights treats trust as a public good—fragile, cumulative, and
-          system-level—rather than as an interpersonal sentiment confined to the bedside.
+          The Initiative treats trust as a public good&mdash;fragile, cumulative, and
+          system-level&mdash;rather than as an interpersonal sentiment confined to the bedside.
           This framing explains why rare but high-profile failures can destabilize the entire
           system, and why reforms must be structural, visible, and enforceable rather than
           reactive or performative.
@@ -74,8 +76,8 @@ export default function ExecutiveSummaryPage() {
           <li>Death must be determined using rigorous, transparent, evidence-based standards and guidelines, separate from donation considerations.</li>
         </ul>
         <p>
-          Together, these articles reject the assumption—sometimes implicit in public
-          discourse—that ethical donation requires a &ldquo;life-at-all-costs&rdquo; posture. Instead,
+          Together, these articles reject the assumption&mdash;sometimes implicit in public
+          discourse&mdash;that ethical donation requires a &ldquo;life-at-all-costs&rdquo; posture. Instead,
           they affirm that donation is ethically permissible only when it follows, rather
           than drives, values-based clinical decisions. This reframing is critical for
           restoring trust among families who fear that choosing comfort, dignity, or
@@ -88,18 +90,19 @@ export default function ExecutiveSummaryPage() {
           when decisions are made under emotional distress, time pressure, and informational
           asymmetry.
         </p>
-        <p>The Bill explicitly recognizes that coercion is often subtle, unintentional, and systemic rather than malicious. By affirming rights to:</p>
+        <p>This effort explicitly recognizes that coercion is often subtle, unintentional, and systemic rather than malicious. By affirming rights to:</p>
         <ul className="list-disc pl-5 space-y-1">
           <li>protection from coercive framing and misinformation,</li>
           <li>access to independent advocacy and ethical oversight, and</li>
           <li>informed, revocable, and respected authorization (consent),</li>
         </ul>
         <p>
-          the framework shifts ethical responsibility from individual conversations to
-          institutional design. Authorization is treated not as a transactional checkbox, but
-          as a relational and revisable process, supported by safeguards that protect the
-          designated donor&apos;s rights or in the case of a non-designated donor, protects
-          families even when they are uncertain, conflicted, or ultimately decline donation.
+          The Initiative&apos;s framework shifts ethical responsibility from individual
+          conversations to institutional design. Authorization is treated not as a
+          transactional checkbox, but as a relational and revisable process, supported by
+          safeguards that protect the designated donor&apos;s rights or in the case of a
+          non-designated donor, protects families even when they are uncertain, conflicted,
+          or ultimately decline donation.
         </p>
 
         <h3 className="font-semibold text-gray-900">4. Communication, Dignity, and the Human Experience of Loss</h3>
@@ -116,9 +119,9 @@ export default function ExecutiveSummaryPage() {
           respected, and protected at moments of vulnerability and irreversible loss.
         </p>
         <p>
-          By explicitly extending dignity beyond death, the Bill counters one of the most
-          persistent public fears about organ donation: that bodies will be treated
-          instrumentally rather than reverently.
+          By explicitly extending dignity beyond death, the Initiative&apos;s framework counters
+          one of the most persistent public fears about organ donation: that bodies will be
+          treated instrumentally rather than reverently.
         </p>
 
         <h3 className="font-semibold text-gray-900">5. Equity, Transparency, and Accountability as Trust Conditions</h3>
@@ -127,14 +130,14 @@ export default function ExecutiveSummaryPage() {
           trust even among those who never encounter donation directly.
         </p>
         <p>
-          The Bill rejects the idea that equity and transparency are aspirational goals.
+          The Initiative rejects the idea that equity and transparency are aspirational goals.
           Instead, it treats them as preconditions for moral legitimacy. A system that
           solicits altruism while delivering inequitable access to transplantation, opaque
           performance data, or weak accountability cannot reasonably expect public trust.
         </p>
         <p>
           By embedding equity measurement, public reporting, safety event disclosure, and
-          enforceable accountability into the rights framework, the Bill aligns ethical theory
+          enforceable accountability into the framework, the Initiative aligns ethical theory
           with contemporary expectations of institutional responsibility.
         </p>
 
@@ -151,8 +154,8 @@ export default function ExecutiveSummaryPage() {
           clinical and technological landscape.
         </p>
         <p>
-          This emphasis reflects a core insight of the Bill: ethical systems that do not
-          listen will eventually lose legitimacy, regardless of technical sophistication.
+          This emphasis reflects a core insight: ethical systems that do not listen will
+          eventually lose legitimacy, regardless of technical sophistication.
         </p>
 
         <h3 className="font-semibold text-gray-900">7. Learning, Reform, and Ethical Stewardship</h3>
@@ -160,7 +163,7 @@ export default function ExecutiveSummaryPage() {
           Articles 12 and 15 bind the framework together by asserting that trustworthiness is
           sustained through continuous learning and ethical stewardship.
         </p>
-        <p>Rather than promising perfection, the Bill commits institutions to:</p>
+        <p>Rather than promising perfection, the Initiative encourages institutions to:</p>
         <ul className="list-disc pl-5 space-y-1">
           <li>detect and analyze failures and near misses,</li>
           <li>reform practices transparently, and</li>
@@ -169,8 +172,9 @@ export default function ExecutiveSummaryPage() {
         <p>
           Ethical stewardship is framed as a collective responsibility that extends beyond
           compliance to include moral leadership, humility, and willingness to change. In this
-          sense, the Bill of Rights is not static; it is designed to remain ethically
-          responsive as medicine, technology, and societal values evolve.
+          sense, the final document, in whatever form it embodies, is not static; it is
+          designed to remain ethically responsive as medicine, technology, and societal values
+          evolve.
         </p>
 
         <h2 className="text-lg font-bold text-brand-800 pt-4">Concluding Synthesis</h2>
@@ -182,11 +186,12 @@ export default function ExecutiveSummaryPage() {
           defensiveness.
         </p>
         <p>
-          By making explicit what patients and families should expect (are owed??)—and what
-          institutions must guarantee—the Donor Bill of Rights offers a path toward restoring
-          public confidence at a moment of legitimate concern and scrutiny. A system that
-          earns trust does more than facilitate transplantation; it honors the moral weight of
-          the gift on which it depends.
+          By making explicit what patients and families should expect from the entire donation
+          ecosystem&mdash;and what institutions must guarantee&mdash;the Donation Commitments and
+          Common Values Initiative offers a path toward restoring public confidence at a
+          moment of legitimate concern and scrutiny. A system that earns trust does more than
+          facilitate transplantation; it honors the moral weight of the gift on which it
+          depends.
         </p>
 
       </div>
