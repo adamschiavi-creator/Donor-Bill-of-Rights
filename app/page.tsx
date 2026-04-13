@@ -25,9 +25,8 @@ export default async function HomePage() {
             The Donation Commitments and Common Values Initiative
           </h1>
           <p className="text-brand-100 text-base sm:text-lg max-w-2xl leading-relaxed">
-            A collaborative foundation of thought and best practices in organ and tissue
-            donation and transplantation — developed in partnership with the Organ Donation
-            and Transplantation Alliance.
+            A collaborative foundation of thought and best practices in organ donation —
+            developed in partnership with the Organ Donation and Transplantation Alliance.
           </p>
           <p className="mt-3">
             <Link href="/executive-summary" className="text-base font-semibold text-white underline hover:text-brand-100">
